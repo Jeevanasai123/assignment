@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FacesearchAI Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FacesearchAI Dashboard</h1>
+
+        <form id="uploadForm">
+            <div class="form-group">
+                <label for="imageUpload">Upload Image or Video:</label>
+                <input type="file" id="imageUpload" name="imageUpload" accept="image/*,video/*">
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+
+        <div id="result">
+            <!-- Results from FacesearchAI will be displayed here -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
